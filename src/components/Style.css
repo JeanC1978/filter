@@ -1,0 +1,30 @@
+body {
+	background-color: black;
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	width: 360px;
+	min-height: max-content;
+	background-color: #7b61ff;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0px 0px 20px 20px;
+}
+
+.text {
+	position: absolute;
+	color: white;
+	font-family: "Trebuchet MS";
+	text-align: center;
+	text-shadow: 2px 2px 2px black;
+}
+
+.star {
+	position: relative;
+	width: 360px;
+	min-height: max-content;
+}
